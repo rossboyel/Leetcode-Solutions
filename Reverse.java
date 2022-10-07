@@ -4,8 +4,8 @@ public class Reverse {
 
         int[] arr = new int[n];
 
-        for (int d = 0; d < n; d++) {
-            arr[d] = n-d;
+        for (int i = 0; i < n; i++) {
+            arr[i] = n-i;
         }
 
         return arr;
